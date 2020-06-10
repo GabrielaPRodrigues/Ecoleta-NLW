@@ -37,7 +37,7 @@
 
 #page-home main{
     max-width: 560px;
-    height: 486px;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

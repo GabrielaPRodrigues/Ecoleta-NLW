@@ -10,12 +10,25 @@
 
     #page-home header a{
         position: absolute;
-        bottom: 48px;
+        bottom: -85px;
         left: 50%;
         transform: translateX(-50%);
     }
 
     #page-home main{
         align-items: center;
+    }
+}
+
+@media (min-width: 1440px) {
+    #page-home{
+        height: 100vh;
+        background-position: 43vw bottom;
+    }
+}
+
+@media (max-height: 760px) {
+    #page-home{
+       background-position-y: 140px;
     }
 }
